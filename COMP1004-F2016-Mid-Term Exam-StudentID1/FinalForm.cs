@@ -38,5 +38,21 @@ namespace COMP1004_F2016_Mid_Term_Exam_StudentID1
         {
             Application.Exit();
         }
+        /// <summary>
+        /// The final form loader finalizes everything done over the form and lets you review it before the game!
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void FinalForm_Load(object sender, EventArgs e)
+        {
+            FirstNameTextBox.Text = Program.character.FirstName;
+            LastNameTextBox.Text = Program.character.LastName;
+            StrengthTextBox.Text = Program.character.Strength;
+            DexterityTextBox.Text = Program.character.Dexterity;
+            ConstitutionTextBox.Text = Program.character.Constitution;
+            WisdomTextBox.Text = Program.character.Wisdom;
+            CharismaTextBox.Text = Program.character.Charisma;
+            RaceTextBox.Text = Program.character.Race;
+        }
     }
 }

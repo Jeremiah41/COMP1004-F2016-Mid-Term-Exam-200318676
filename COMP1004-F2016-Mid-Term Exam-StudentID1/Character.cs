@@ -5,6 +5,9 @@ using System.Text;
 
 namespace COMP1004_F2016_Mid_Term_Exam_StudentID1
 {
+    /// <summary>
+    /// Stores all the values for the character currently being made.
+    /// </summary>
     public class Character
     {
         public string Strength { get; set; }
