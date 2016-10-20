@@ -19,7 +19,11 @@ namespace COMP1004_F2016_Mid_Term_Exam_StudentID1
 
         private void SplashScreenTimer_Tick(object sender, EventArgs e)
         {
+            SplashFormTimer.Enabled = false;
 
+            GenerateNameForm startForm = new GenerateNameForm();
+            startForm.Show();
+            this.Hide();
         }
     }
 }

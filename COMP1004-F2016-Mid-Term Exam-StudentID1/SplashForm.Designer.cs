@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.SplashScreenTimer = new System.Windows.Forms.Timer(this.components);
+            this.SplashFormTimer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
-            // SplashScreenTimer
+            // SplashFormTimer
             // 
-            this.SplashScreenTimer.Enabled = true;
-            this.SplashScreenTimer.Interval = 3000;
-            this.SplashScreenTimer.Tick += new System.EventHandler(this.SplashScreenTimer_Tick);
+            this.SplashFormTimer.Enabled = true;
+            this.SplashFormTimer.Interval = 3000;
+            this.SplashFormTimer.Tick += new System.EventHandler(this.SplashScreenTimer_Tick);
             // 
             // SplashForm
             // 
@@ -57,6 +57,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Timer SplashScreenTimer;
+        private System.Windows.Forms.Timer SplashFormTimer;
     }
 }
